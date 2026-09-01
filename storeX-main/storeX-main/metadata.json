@@ -1,0 +1,8 @@
+{
+  "name": "Remix StoreX",
+  "description": "Full-Stack E-Commerce Product Catalog with live REST API, search, filtering, authentication, cart, and simulated checkout.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
