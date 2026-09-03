@@ -12,7 +12,7 @@ interface StoredUser extends User {
 }
 
 const app = express();
-const PORT = 3000;
+const PORT = Number(process.env.PORT) || 3000;
 const JWT_SECRET = process.env.JWT_SECRET || 'storex_jwt_production_secure_secret_token_key';
 
 // Middleware
